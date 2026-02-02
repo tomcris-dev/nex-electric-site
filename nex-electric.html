@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nex Electric | Automação Residencial de Alto Padrão</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+      url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      letter-spacing: 3px;
+      color: #d4af37;
+    }
+
+    header span {
+      font-size: 1rem;
+      letter-spacing: 4px;
+      color: #aaa;
+    }
+
+    header p {
+      max-width: 750px;
+      margin: 25px auto;
+      font-size: 1.2rem;
+      color: #e0e0e0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 45px;
+      border: 1px solid #d4af37;
+      color: #d4af37;
+      text-decoration: none;
+      letter-spacing: 2px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #d4af37;
+      color: #000;
+    }
+
+    section {
+      padding: 90px 10%;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 25px;
+      color: #d4af37;
+    }
+
+    .about p {
+      max-width: 900px;
+      font-size: 1.1rem;
+      color: #cccccc;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 35px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: #111;
+      padding: 35px;
+      border: 1px solid #222;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      border-color: #d4af37;
+      transform: translateY(-6px);
+    }
+
+    .card h3 {
+      margin-bottom: 18px;
+      color: #d4af37;
+      letter-spacing: 1px;
+    }
+
+    .card p {
+      color: #bdbdbd;
+    }
+
+    .cta {
+      background: linear-gradient(135deg, #000, #1a1a1a);
+      text-align: center;
+    }
+
+    .cta p {
+      max-width: 750px;
+      margin: 25px auto;
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+
+    footer {
+      padding: 30px;
+      text-align: center;
+      background: #000;
+      color: #777;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <span>AUTOMAÇÃO & SOLUÇÕES ELÉTRICAS</span>
+      <h1>NEX ELECTRIC</h1>
+      <p>
+        Tecnologia elétrica inteligente aplicada ao conforto, segurança
+        e sofisticação de residências e espaços comerciais de alto padrão.
+      </p>
+      <a href="#contato" class="btn">SOLICITAR PROJETO</a>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2>Excelência em Energia Inteligente</h2>
+    <p>
+      A Nex Electric é especialista em automação residencial e soluções elétricas
+      modernas, integrando iluminação, climatização, segurança e controle total
+      em sistemas elegantes, eficientes e intuitivos.
+    </p>
+  </section>
+
+  <section>
+    <h2>Soluções Nex Electric</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Iluminação Inteligente</h3>
+        <p>Cenários personalizados que unem design, conforto visual e eficiência energética.</p>
+      </div>
+      <div class="card">
+        <h3>Automação Residencial</h3>
+        <p>Controle completo do ambiente por aplicativo, painéis touch ou voz.</p>
+      </div>
+      <div class="card">
+        <h3>Segurança Integrada</h3>
+        <p>Sistemas de monitoramento, alarmes e controle de acesso com máxima confiabilidade.</p>
+      </div>
+      <div class="card">
+        <h3>Infraestrutura Elétrica</h3>
+        <p>Projetos elétricos modernos, seguros e preparados para o futuro.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contato">
+    <h2>O Futuro da Sua Casa Começa Aqui</h2>
+    <p>
+      Fale com a Nex Electric e descubra como a automação e a engenharia elétrica
+      podem elevar o nível do seu espaço.
+    </p>
+    <a href="#" class="btn">FALE CONOSCO</a>
+  </section>
+
+  <footer>
+    © 2026 NEX ELECTRIC • Automação Residencial & Elétrica Inteligente
+  </footer>
+
+</body>
+</html>
